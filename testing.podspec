@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
-  s.name             = “testing”
-  s.version          = “1.0.0”
+  s.name             = "testing"
+  s.version          = "1.0.0"
   s.summary          = "A marquee view used on iOS."
   s.description      = <<-DESC
                        It is a marquee view used on iOS, which implement by Objective-C.
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/iosliuna/testing"
   # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { “nana” => “liuna@yongche.com” }
+  s.author           = { "nana" => "liuna@yongche.com" }
   s.source           = { :git => "https://github.com/iosliuna/testing.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/NAME'
 
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
-  s.source_files = ‘testing/*’
+  s.source_files = 'testing/*'
 
   # s.ios.exclude_files = 'Classes/osx'
   # s.osx.exclude_files = 'Classes/ios'
